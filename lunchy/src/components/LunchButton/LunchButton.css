@@ -1,0 +1,32 @@
+/* Base button styles */
+.rounded-button {
+  padding: 15px 30px; /* Adjust padding for a larger button */
+  background-color: #4caf50; /* A nice green color */
+  color: white; /* White text */
+  border: none; /* Remove default borders */
+  border-radius: 50px; /* Fully rounded edges */
+  font-size: 18px; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor on hover */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover state */
+.rounded-button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Deepen shadow */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Focus state */
+.rounded-button:focus {
+  outline: 2px solid #85e085; /* Add a green outline for accessibility */
+  outline-offset: 2px;
+}
+
+/* Active state */
+.rounded-button:active {
+  transform: scale(0.98); /* Slightly shrink the button when clicked */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Reduce shadow */
+}
